@@ -1,4 +1,4 @@
-import * as authService from "../services/authService.js";
+import authService from "../services/authService.js";
 
 async function register(req, res) {
     res.status(201).json(await authService.cadastrar(req.body));

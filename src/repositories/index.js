@@ -1,4 +1,4 @@
-import createMySqlRepository from './mysqlRepository.js';
+import createMySqlRepository from './mysqlRepositery.js';
 
 export const users = createMySqlRepository('users');
 export const addresses = createMySqlRepository('addresses');
